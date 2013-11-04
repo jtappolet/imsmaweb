@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='org.gichd.imsmaweb.imsmaweb'/>
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/imsmaweb/greet" class="org.gichd.imsmaweb.server.GreetingServiceImpl" />
+
+</module>
